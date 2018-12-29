@@ -1,0 +1,8 @@
+- category: "Platform guidelines"
+  items:
+    - title: "Human Interface Guidelines"
+      author: "Apple"
+      url: "https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
+    - title: "Material Design Guidelines"
+      author: "Google"
+      url: "https://material.io/design/"

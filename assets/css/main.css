@@ -1,0 +1,20 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+html {
+  font-family: 'Inter UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter UI var alt', sans-serif; }
+}
+
+.thick-border {
+  border: 1.5rem solid white;
+}
+
+.dk-grey {
+  color: #2D2D2D;
+}
+
+.bg-blue {
+  background-color: #2A58CF;
+}

@@ -2,10 +2,20 @@
 layout: default
 ---
 
-<div>
-  {%- if page.title -%}
-    <h1>{{ page.title }}</h1>
-  {%- endif -%}
+<div class="z-1 bg-blue w-70 absolute pa5 right-0 top-0 bottom-0 overflow-scroll white">
+  <a class="absolute top-0 right-0 white link mt4 mr4 pa2" href="#">Submit</a>
 
-  {{ content }}
+  <div>
+    {% for link in site.data.links %}
+    <h3>{{ link.category }}</h3>
+    <ul>
+      {% for details in link.items %}
+      <li>
+        <a href="{{ details.url }}">{{ details.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+
 </div>

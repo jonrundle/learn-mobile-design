@@ -1,5 +1,18 @@
-<header>
+<header class="z-2 fixed left-0 top-0 bottom-0 pa5 dk-grey w-40">
+
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <a class="dk-grey link b f3" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+  <h1 class="ma0 mt6 f1 normal lh-title">A curated list of mobile design resources</h1>
+
+  <div class="absolute bottom-0 mb5">
+    <h4 class="f5 ma0">Table of contents</h4>
+    <ul class="list pa0 ma0 mt3">
+      <li class="mt2"><a class="link dk-grey" href="#">Platform guidelines</a>
+      <li class="mt2"><a class="link dk-grey" href="#">In-depth learning</a>
+      <li class="mt2"><a class="link dk-grey" href="#">Resources</a>
+      <li class="mt2"><a class="link dk-grey" href="#">Articles</a>
+    </ul>
+  </div>
 </header>
