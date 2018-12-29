@@ -18,3 +18,14 @@ html {
 .bg-blue {
   background-color: #2A58CF;
 }
+
+.bg-border:before {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  height: 8px;
+  content: '';
+  z-index: -1;
+  background: #1A3782;
+}

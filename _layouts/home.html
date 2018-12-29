@@ -2,16 +2,19 @@
 layout: default
 ---
 
-<div class="z-1 bg-blue w-70 absolute pa5 right-0 top-0 bottom-0 overflow-scroll white">
-  <a class="absolute top-0 right-0 white link mt4 mr4 pa2" href="#">Submit</a>
+<div class="z-1 bg-blue w-75 absolute pa5 right-0 top-0 bottom-0 overflow-scroll white">
+  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim" href="#">Submit</a>
 
-  <div>
+  <div class="pl6 mt6">
     {% for link in site.data.links %}
-    <h3>{{ link.category }}</h3>
-    <ul>
+    <h3 class="b f3 bg-border relative dib ma0 mt2">{{ link.category }}</h3>
+    <ul class="list ma0 pa0 mt4 mb5">
       {% for details in link.items %}
-      <li>
-        <a href="{{ details.url }}">{{ details.title }}</a>
+      <li class="mt4">
+        <a class="db link white dim" target="_blank" href="{{ details.url }}">
+          <h4 class="f3 normal ma0 mb2">{{ details.title }}</h4>
+          <span class="o-60">by {{ details.author }}</span>
+        </a>
       </li>
       {% endfor %}
     </ul>
