@@ -13,10 +13,9 @@
   <div class="absolute bottom-0 mb5">
     <h4 class="f5 ma0">Table of contents</h4>
     <ul class="list pa0 ma0 mt3">
-      <li class="mt2"><a class="link dk-grey" href="#">Platform guidelines</a>
-      <li class="mt2"><a class="link dk-grey" href="#">In-depth learning</a>
-      <li class="mt2"><a class="link dk-grey" href="#">Resources</a>
-      <li class="mt2"><a class="link dk-grey" href="#">Articles</a>
+      {% for link in site.data.links %}
+      <li class="mt2"><a class="link dk-grey" href="#">{{ link.category }}</a>
+      {% endfor %}
     </ul>
   </div>
 </header>

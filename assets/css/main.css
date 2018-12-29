@@ -15,8 +15,16 @@ html {
   color: #2D2D2D;
 }
 
+.blue {
+  color: #2A58CF;
+}
+
 .bg-blue {
   background-color: #2A58CF;
+}
+
+.f7 {
+  font-size: .65rem;
 }
 
 .bg-border:before {

@@ -1,8 +1,81 @@
-- category: "Platform guidelines"
+- category: "Platform guides"
   items:
     - title: "Human Interface Guidelines"
       author: "Apple"
       url: "https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
+      paid: false
     - title: "Material Design Guidelines"
       author: "Google"
       url: "https://material.io/design/"
+      paid: false
+    - title: "The iOS Design Guidelines"
+      author: "Ivo Mynttinen"
+      url: "https://ivomynttinen.com/blog/ios-design-guidelines"
+      paid: false
+
+- category: "Articles"
+  items:
+    - title: "Designing beautiful mobile apps from scratch"
+      author: "Harshita Arora"
+      url: "https://medium.freecodecamp.org/designing-beautiful-mobile-apps-from-scratch-1a3441ebd604"
+      paid: false
+    - title: "Mobile in The Future"
+      author: "Luke Wroblewski"
+      url: "https://www.lukew.com/ff/entry.asp?1982"
+      paid: false
+    - title: "Designing Push Notifications that Don’t Suck"
+      author: "Antoine Sakho"
+      url: "https://medium.com/@antoinesakho/designing-push-notifications-that-dont-suck-af6aaa0ea85"
+      paid: false
+
+- category: "Courses"
+  items:
+    - title: "Learn iOS 11 Design"
+      author: "Meng To"
+      url: "https://designcode.io/ios11"
+      paid: true
+    - title: "Mobile App Design for iOS"
+      author: "Sarah Parmenter"
+      url: "https://teamtreehouse.com/library/mobile-app-design-for-ios"
+      paid: true
+
+- category: "Inspiration"
+  items:
+    - title: "Pttrns - Mobile Design Patterns"
+      author: "Pttrns"
+      url: "https://pttrns.com"
+      paid: false
+    - title: "Mobbin - Latest Mobile Design Patterns"
+      author: "Mobbin"
+      url: "https://mobbin.design"
+      paid: false
+
+- category: "Downloads"
+  items:
+    - title: "Apple Design Resources: iOS"
+      author: "Apple"
+      url: "https://developer.apple.com/design/resources/"
+      paid: false
+    - title: "Material Design Kit"
+      author: "Great Simple Studio"
+      url: "https://materialdesignkit.com"
+      paid: true
+    - title: "Devices"
+      author: "Facebook Design"
+      url: "https://facebook.design/devices"
+      paid: false
+
+- category: "Tools"
+  items:
+    - title: "Sketch - The digital design toolkit"
+      author: "Sketch"
+      url: "https://www.sketchapp.com"
+      paid: true
+    - title: "Figma: the collaborative interface design tool"
+      author: "Figma"
+      url: "http://figma.com"
+      paid: true
+    - title: "Framer - Interactive Design Tool"
+      author: "Framer"
+      url: "https://framer.com"
+      paid: true
