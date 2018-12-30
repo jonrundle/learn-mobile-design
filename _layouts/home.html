@@ -7,7 +7,7 @@ layout: default
 
   <div class="pl6 mv6">
     {% for link in site.data.links %}
-    <h3 id="{{ link.category }}" class="b f3 bg-border relative dib ma0 mt2">{{ link.category }}</h3>
+    <h3 id="{{ link.nav }}" class="b f3 bg-border relative dib ma0 mt2">{{ link.category }}</h3>
     <ul class="list ma0 pa0 mt4 mb5 pb3">
       {% for details in link.items %}
       <li class="mt4">

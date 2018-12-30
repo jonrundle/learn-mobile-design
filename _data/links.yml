@@ -1,4 +1,5 @@
 - category: "Platform guides"
+  nav: "guides"
   items:
     - title: "Human Interface Guidelines"
       author: "Apple"
@@ -14,6 +15,7 @@
       paid: false
 
 - category: "Articles"
+  nav: "articles"
   items:
     - title: "Designing beautiful mobile apps from scratch"
       author: "Harshita Arora"
@@ -29,6 +31,7 @@
       paid: false
 
 - category: "Courses"
+  nav: "courses"
   items:
     - title: "Learn iOS 11 Design"
       author: "Meng To"
@@ -40,6 +43,7 @@
       paid: true
 
 - category: "Inspiration"
+  id: 4
   items:
     - title: "Pttrns - Mobile Design Patterns"
       author: "Pttrns"
@@ -51,6 +55,7 @@
       paid: false
 
 - category: "Downloads"
+  nav: "downloads"
   items:
     - title: "Apple Design Resources: iOS"
       author: "Apple"
@@ -66,6 +71,7 @@
       paid: false
 
 - category: "Tools"
+  nav: "tools"
   items:
     - title: "Sketch - The digital design toolkit"
       author: "Sketch"
