@@ -1,13 +1,13 @@
-<header class="z-2 fixed left-0 top-0 bottom-0 pa5 pr0 dk-grey w-40 mw6">
+<header class="z-2 fixed left-0 top-0 bottom-0 pa5 dk-grey w-25 mw6 bg-white">
 
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a class="dk-grey link b f3" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <a class="dk-grey link b f4" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-  <h1 class="ma0 mt6 f1 normal no-wrap">
-    <span class="bg-white dib pr3 pv2">A curated list of</span>
-    <span class="bg-white dib pr3 pv2">mobile design</span>
-    <span class="bg-white dib pr3 pv2">resources</span>
+  <h1 class="ma0 mt5 pt4 f1 normal no-wrap" style="margin-right: -70%;">
+    <span class="bg-white dib pr4 pv2">A curated list of</span>
+    <span class="bg-white dib pr4 pv2">mobile design</span>
+    <span class="bg-white dib pr4 pv2">resources</span>
   </h1>
 
   <div class="absolute bottom-0 mb5">

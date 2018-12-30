@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="z-1 bg-blue w-75 absolute pa5 right-0 top-0 bottom-0 overflow-scroll white">
-  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim" href="#">Submit</a>
+<div class="w-75 pa5 white fr">
+  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim f5" href="#">Submit</a>
 
-  <div class="pl6 mt6">
+  <div class="pl6 mv6">
     {% for link in site.data.links %}
     <h3 id="{{ link.category }}" class="b f3 bg-border relative dib ma0 mt2">{{ link.category }}</h3>
-    <ul class="list ma0 pa0 mt4 mb5">
+    <ul class="list ma0 pa0 mt4 mb5 pb3">
       {% for details in link.items %}
       <li class="mt4">
         <a class="db link white dim" target="_blank" href="{{ details.url }}">
