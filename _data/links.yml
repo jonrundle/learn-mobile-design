@@ -43,7 +43,7 @@
       paid: true
 
 - category: "Inspiration"
-  id: 4
+  nav: "inspiration"
   items:
     - title: "Pttrns - Mobile Design Patterns"
       author: "Pttrns"
