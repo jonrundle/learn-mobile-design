@@ -1,4 +1,4 @@
-<header class="z-2 fixed left-0 top-0 bottom-0 pa5 pr0 dk-grey w-40">
+<header class="z-2 fixed left-0 top-0 bottom-0 pa5 pr0 dk-grey w-40 mw6">
 
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -14,7 +14,7 @@
     <h4 class="f5 ma0">Table of contents</h4>
     <ul class="list pa0 ma0 mt3">
       {% for link in site.data.links %}
-      <li class="mt2"><a class="link dk-grey" href="#">{{ link.category }}</a>
+      <li class="mt2"><a class="link dk-grey dim" href="#">{{ link.category }}</a>
       {% endfor %}
     </ul>
   </div>
