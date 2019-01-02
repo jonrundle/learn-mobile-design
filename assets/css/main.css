@@ -15,6 +15,10 @@ html {
   color: #2D2D2D;
 }
 
+.dk-grey-60 {
+  color: rgba(45, 45, 45, 0.6);
+}
+
 .blue {
   color: #2A58CF;
 }
@@ -27,6 +31,10 @@ html {
   font-size: .65rem;
 }
 
+.mw6 {
+  max-width: 24rem;
+}
+
 .bg-border:before {
   position: absolute;
   bottom: 0;
@@ -36,4 +44,19 @@ html {
   content: '';
   z-index: -1;
   background: #1A3782;
+}
+
+.js-current,
+.js-nav-link:hover {
+  color: #2D2D2D;
+}
+
+.js-current:before {
+  position: absolute;
+  left: -2rem;
+  content: '';
+  background: #2A58CF;
+  width: 1.5rem;
+  height: 3px;
+  margin-top: 6px;
 }

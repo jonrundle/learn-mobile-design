@@ -5,9 +5,9 @@ layout: default
 <div class="w-75 ph5 pt5 pb6 white fr">
   <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim f5" href="#">Submit</a>
 
-  <div class="pl6">
+  <div class="pl6 js-links-wrapper">
     {% for link in site.data.links %}
-    <h3 id="{{ link.nav }}" class="b f3 bg-border relative dib ma0 pt6">{{ link.category }}</h3>
+    <h3 id="{{ link.nav }}" class="b f3 bg-border relative dib ma0 pt6 js-category">{{ link.category }}</h3>
     <ul class="list ma0 pa0 mt4">
       {% for details in link.items %}
       <li class="mt4">
