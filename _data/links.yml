@@ -13,10 +13,22 @@
       author: "Ivo Mynttinen"
       url: "https://ivomynttinen.com/blog/ios-design-guidelines"
       paid: false
+    - title: "The Ultimate Guide To iPhone Resolutions"
+      author: "PaintCode"
+      url: "https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions"
+      paid: false
+    - title: "Material Design - Device Metrics"
+      author: "Google"
+      url: "https://material.io/tools/devices/"
+      paid: false
 
-- category: "Articles"
-  nav: "articles"
+- category: "Good reads"
+  nav: "reads"
   items:
+    - title: "Pixel Density, Demystified"
+      author: "Peter Nowell"
+      url: "https://medium.com/@pnowelldesign/pixel-density-demystified-a4db63ba2922"
+      paid: false
     - title: "Designing beautiful mobile apps from scratch"
       author: "Harshita Arora"
       url: "https://medium.freecodecamp.org/designing-beautiful-mobile-apps-from-scratch-1a3441ebd604"
@@ -28,6 +40,34 @@
     - title: "Designing Push Notifications that Don’t Suck"
       author: "Antoine Sakho"
       url: "https://medium.com/@antoinesakho/designing-push-notifications-that-dont-suck-af6aaa0ea85"
+      paid: false
+    - title: "User Onboarding | A frequently-updated compendium of web app first-run experiences"
+      author: "Samuel Hulick"
+      url: "https://www.useronboard.com"
+      paid: false
+
+- category: "Videos"
+  nav: "videos"
+  items:
+    - title: "Designing Fluid Interfaces - WWDC 2018"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2018/803/"
+      paid: false
+    - title: "Designing Across Platforms - WWDC 2017"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2017/804/"
+      paid: false
+    - title: "App Icon Design - WWDC 2017"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2017/822/"
+      paid: false
+    - title: "Iterative UI Design - WWDC 2017"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2016/805/"
+      paid: false
+    - title: "Conversations @ Google - Part 1"
+      author: "Luke Wroblewski"
+      url: "https://www.youtube.com/watch?v=OkeJg92PA4E"
       paid: false
 
 - category: "Courses"
@@ -41,6 +81,10 @@
       author: "Sarah Parmenter"
       url: "https://teamtreehouse.com/library/mobile-app-design-for-ios"
       paid: true
+    - title: "Material Design for Android Developers"
+      author: "Google"
+      url: "https://www.udacity.com/course/material-design-for-android-developers--ud862"
+      paid: false
 
 - category: "Inspiration"
   nav: "inspiration"
@@ -53,6 +97,14 @@
       author: "Mobbin"
       url: "https://mobbin.design"
       paid: false
+    - title: "Underbite - iOS Design Inspiration"
+      author: "Underbite"
+      url: "https://www.underbite.co"
+      paid: false
+    - title: "iOS Icon Gallery"
+      author: "Jim Nielsen"
+      url: "https://www.iosicongallery.com/"
+      paid: false
 
 - category: "Downloads"
   nav: "downloads"
@@ -61,13 +113,25 @@
       author: "Apple"
       url: "https://developer.apple.com/design/resources/"
       paid: false
+    - title: "iOS Design Kit"
+      author: "Great Simple Studio"
+      url: "https://iosdesignkit.io/ios-11-gui/"
+      paid: false
     - title: "Material Design Kit"
       author: "Great Simple Studio"
       url: "https://materialdesignkit.com"
       paid: true
+    - title: "Android Asset Studio"
+      author: "Roman Nurik"
+      url: "https://romannurik.github.io/AndroidAssetStudio/"
+      paid: false
     - title: "Devices"
       author: "Facebook Design"
       url: "https://facebook.design/devices"
+      paid: false
+    - title: "Sketchize: Free Wireframing Sheets"
+      author: "Sketchize"
+      url: "https://sketchize.com"
       paid: false
 
 - category: "Tools"
@@ -85,3 +149,15 @@
       author: "Framer"
       url: "https://framer.com"
       paid: true
+    - title: "Principle - Animated Design"
+      author: "Principle"
+      url: "http://principleformac.com"
+      paid: true
+    - title: "Invision - Digital product design, workflow & collaboration"
+      author: "Invision"
+      url: "https://www.invisionapp.com"
+      paid: false
+    - title: "Shotsapp - Create beautiful device mockup presentation"
+      author: "Shotsapp"
+      url: "https://shotsnapp.com"
+      paid: false
