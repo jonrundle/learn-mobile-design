@@ -60,3 +60,18 @@ html {
   height: 3px;
   margin-top: 6px;
 }
+
+@media screen and (min-width: 60em) {
+  .mw6-l {
+    max-width: 24rem;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .w-25-xl {
+    width: 25%;
+  }
+  .f1-xl {
+    font-size: 3rem;
+  }
+}
