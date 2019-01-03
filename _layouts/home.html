@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="w-75 ph5 pt5 pb6 white fr">
-  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim f5" href="#">Submit</a>
+<div class="w-75-l w-100 ph5-l pt5-l pb6-l pa4 white fr">
+  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim f5 db-l dn" href="#">Submit</a>
 
-  <div class="pl6 js-links-wrapper">
+  <div class="pl6-l pl0 js-links-wrapper">
     {% for link in site.data.links %}
-    <h3 id="{{ link.nav }}" class="b f3 bg-border relative dib ma0 pt6 js-category">{{ link.category }}</h3>
-    <ul class="list ma0 pa0 mt4">
+    <h3 id="{{ link.nav }}" class="b f3-l f4 bg-border relative dib ma0 pt6-l pt4 js-category">{{ link.category }}</h3>
+    <ul class="list ma0 pa0 mt4 mb0-l mb4">
       {% for details in link.items %}
       <li class="mt4">
         <a class="db link white dim" target="_blank" href="{{ details.url }}">
-          <h4 class="f3 normal ma0 mb2">{{ details.title }}</h4>
+          <h4 class="f3-l f4 normal ma0 mb1 lh-copy">{{ details.title }}</h4>
           <span class="o-60">by {{ details.author }}</span>
           {% if details.paid %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative o-80" style="top: -1px;">$$$</span>{% endif %}
         </a>

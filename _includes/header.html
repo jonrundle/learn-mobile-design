@@ -1,16 +1,18 @@
-<header class="z-2 fixed left-0 top-0 bottom-0 pa5 dk-grey w-25 mw6 bg-white">
+<header class="z-2 fixed-l left-0 top-0 bottom-0 pa5-l pa4 dk-grey w-25-xl w-30-l w-100 mw6-l bg-white">
 
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a class="dk-grey link b f4" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <a class="dk-grey link b f4 mt0-l mt2 dib" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-  <h1 class="ma0 mt5 pt4 f1 normal no-wrap js-heading" style="margin-right: -70%;">
+  <h1 class="ma0 mt5 pt4 f1-xl f2 normal no-wrap db-l dn" style="margin-right: -70%;">
     <span class="bg-white dib pr4 pv2">A curated list of</span>
     <span class="bg-white dib pr4 pv2">mobile design</span>
     <span class="bg-white dib pr4 pv2">resources</span>
   </h1>
 
-  <div class="absolute bottom-0 mb5">
+  <h1 class="ma0 mt4 pt4 f2 normal no-wrap dn-l db lh-copy">A curated list of mobile design resources</h1>
+
+  <div class="absolute bottom-0 mb5 db-l dn">
     <h4 class="f5 ma0">Table of contents</h4>
     <ul class="list pa0 ma0 mt3">
       {% for link in site.data.links %}
