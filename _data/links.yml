@@ -45,6 +45,22 @@
       author: "Samuel Hulick"
       url: "https://www.useronboard.com"
       paid: false
+    - title: "Mobile first"
+      author: "Luke Wroblewski"
+      url: "https://abookapart.com/products/mobile-first"
+      paid: true
+    - title: "A quick and dirty guide to writing clean microcopy"
+      author: "Daresay"
+      url: "https://daresay.co/2018/03/28/quick-and-dirty-guide-to-clean-microcopy/"
+      paid: false
+    - title: "Mental Models I Find Repeatedly Useful"
+      author: "Gabriel Weinberg"
+      url: "https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d"
+      paid: false
+    - title: "Multi-Device Layout Patterns"
+      author: "Luke Wroblewski"
+      url: "https://www.lukew.com/ff/entry.asp?1514"
+      paid: false
 
 - category: "Videos"
   nav: "videos"
