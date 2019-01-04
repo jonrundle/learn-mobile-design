@@ -176,7 +176,7 @@
     - title: "Flinto - The App Design App"
       author: "Flinto"
       url: "	https://www.flinto.com/"
-      paid: false
+      paid: true
     - title: "Shotsapp - Create beautiful device mockup presentation"
       author: "Shotsapp"
       url: "https://shotsnapp.com"
