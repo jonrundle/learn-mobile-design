@@ -181,3 +181,7 @@
       author: "Shotsapp"
       url: "https://shotsnapp.com"
       paid: false
+    - title: "Abstract - Version, manage, and collaborate on your Sketch files"
+      author: "Abstract"
+      url: "https://www.goabstract.com/"
+      paid: true
