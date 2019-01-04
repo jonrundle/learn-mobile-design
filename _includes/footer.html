@@ -1,6 +1,11 @@
-<div class="bg-black-40 fixed z-3 top-0 left-0 right-0 bottom-0 flex items-center justify-center">
-  <div class="bg-white shadow-1 pa5 w-100 br3" style="max-width: 38rem;">
+<div class="fixed z-3 top-0 left-0 right-0 bottom-0 flex-none dn items-center justify-center anim js-form-wrapper">
+  <div class="bg-white shadow-1 pa5 w-100 br3 js-form-box relative z-2" style="max-width: 38rem;">
     <h3 class="f3 b dk-grey normal ma0">Submit a link</h3>
+    <a class="link dim absolute top-0 right-0 pa3 js-close-form" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32">
+        <path d="M47.4142,47.4355a2.0012,2.0012,0,0,1-2.8307,0l-12.6-12.6L19.3951,47.4246a2.0016,2.0016,0,0,1-2.8306-2.8307L29.1533,32.0052,16.5668,19.4187a2.0015,2.0015,0,0,1,2.83-2.8305L31.9838,29.1746,44.5813,16.5772a2.0015,2.0015,0,1,1,2.83,2.8306L34.8145,32.0052l12.6,12.6A2.001,2.001,0,0,1,47.4142,47.4355Z" fill-rule="evenodd"/>
+      </svg>
+    </a>
     <form class="mt4 pt2 js-submit-form" action="https://formcarry.com/s/xoi4fIGx8J2" method="POST" accept-charset="UTF-8">
       <div class="mb4">
         <label class="db f6 dk-grey-60" for="category">Category</label>
@@ -12,22 +17,24 @@
       </div>
       <div class="mb4">
         <label class="db f6 dk-grey-60" for="title">Title</label>
-        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="text" id="title" name="title" placeholder="Human interface guidelines" required="required" />
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue anim" type="text" id="title" name="title" placeholder="Human interface guidelines" required="required" />
       </div>
       <div class="mb4">
         <label class="db f6 dk-grey-60" for="author">Author</label>
-        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="text" id="author" name="author" placeholder="Apple" required="required" />
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue anim" type="text" id="author" name="author" placeholder="Apple" required="required" />
       </div>
       <div class="mb4">
         <label class="db f6 dk-grey-60" for="url">URL</label>
-        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="url" id="url" name="url" placeholder="https://developer.apple.com/" required="required" />
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue anim" type="url" id="url" name="url" placeholder="https://developer.apple.com/" required="required" />
       </div>
       <div>
-        <input class="pv3 ph4 f5 bg-blue white bn br2 hover-dk-blue" type="submit" style="cursor: pointer;" value="Submit" />
+        <input class="pv3 ph4 f5 bg-blue white bn br2 hover-dk-blue anim" type="submit" style="cursor: pointer;" value="Submit" />
       </div>
     </form>
   </div>
+  <div class="bg-black-40 absolute top-0 right-0 left-0 bottom-0 z-1 js-form-bg"></div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/scripts/anime.min.js"></script>
 <script src="/assets/scripts/main.js"></script>

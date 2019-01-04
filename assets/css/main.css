@@ -25,10 +25,6 @@ html {
   background-color: #2A58CF;
 }
 
-.hover-dk-blue {
-  transition: all .15s ease-in;
-}
-
 .hover-dk-blue:hover {
   background-color: #1A3782;
 }
@@ -73,7 +69,7 @@ input::placeholder {
   font-weight: normal;
 }
 
-.focus-b--blue {
+.anim {
   transition: all .15s ease-in;
 }
 
