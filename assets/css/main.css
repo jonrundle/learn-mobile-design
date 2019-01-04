@@ -11,6 +11,11 @@ html {
   border: 1.5rem solid white;
 }
 
+input::placeholder {
+  color: rgba(45, 45, 45, 0.2);
+  font-weight: normal;
+}
+
 .dk-grey {
   color: #2D2D2D;
 }
@@ -33,6 +38,23 @@ html {
 
 .mw6 {
   max-width: 24rem;
+}
+
+.bb {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.shadow-1 {
+  box-shadow: 4px 4px 20px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+.focus-b--blue {
+  transition: all .15s ease-in;
+}
+
+.focus-b--blue:focus {
+border-color: #2A58CF;
 }
 
 .bg-border:before {

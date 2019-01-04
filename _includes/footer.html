@@ -1,2 +1,33 @@
+<div class="bg-black-40 fixed z-3 top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+  <div class="bg-white shadow-1 pa5 w-100 br3" style="max-width: 38rem;">
+    <h3 class="f3 b dk-grey normal ma0">Submit a link</h3>
+    <form class="mt4 pt2">
+      <div class="mb4">
+        <label class="db f6 dk-grey-60" for="category">Category</label>
+        <select class="mt3 db w-100" id="category">
+          {% for link in site.data.links %}
+          <option value="{{ link.nav }}">{{ link.category }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb4">
+        <label class="db f6 dk-grey-60" for="title">Title</label>
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="text" id="title" placeholder="Human interface guidelines" required="required" />
+      </div>
+      <div class="mb4">
+        <label class="db f6 dk-grey-60" for="author">Author</label>
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="text" id="author" placeholder="Apple" required="required" />
+      </div>
+      <div class="mb4">
+        <label class="db f6 dk-grey-60" for="url">URL</label>
+        <input class="input-reset db w-100 b dk-grey f4 bn bb b--black-10 outline-0 pv2 focus-b--blue" type="url" id="url" placeholder="https://developer.apple.com/" required="required" />
+      </div>
+      <div>
+        <input class="pv3 ph4 f5 bg-blue white bn br2" type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/assets/scripts/main.js"></script>
