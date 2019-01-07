@@ -61,6 +61,14 @@
       author: "Luke Wroblewski"
       url: "https://www.lukew.com/ff/entry.asp?1514"
       paid: false
+    - title: "Colour management settings for design tools"
+      author: "Marc Edwards"
+      url: "https://bjango.com/articles/colourmanagementsettings/"
+      paid: false
+    - title: "Designer's guide to DPI"
+      author: "Sebastien Gabriel"
+      url: "https://www.sebastien-gabriel.com/designers-guide-to-dpi/"
+      paid: false
 
 - category: "Videos"
   nav: "videos"
@@ -149,6 +157,14 @@
       author: "Sketchize"
       url: "https://sketchize.com"
       paid: false
+    - title: "Superior iOS Framework"
+      author: "Interface.Market"
+      url: "https://interface.market/superior/framework"
+      paid: true
+    - title: "Bjango App Icon Templates"
+      author: "Marc Edwards"
+      url: "https://github.com/bjango/Bjango-Templates"
+      paid: false
 
 - category: "Tools"
   nav: "tools"
@@ -160,6 +176,10 @@
     - title: "Figma: the collaborative interface design tool"
       author: "Figma"
       url: "http://figma.com"
+      paid: true
+    - title: "Adobe XD"
+      author: "Adobe"
+      url: "https://www.adobe.com/uk/products/xd.html"
       paid: true
     - title: "Framer - Interactive Design Tool"
       author: "Framer"
@@ -177,6 +197,10 @@
       author: "Flinto"
       url: "https://www.flinto.com/"
       paid: true
+    - title: "Origami Studio - Interaction Prototyping"
+      author: "Facebook"
+      url: "https://origami.design/"
+      paid: false
     - title: "Shotsapp - Create beautiful device mockup presentation"
       author: "Shotsapp"
       url: "https://shotsnapp.com"
