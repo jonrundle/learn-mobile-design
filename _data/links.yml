@@ -69,6 +69,10 @@
       author: "Sebastien Gabriel"
       url: "https://www.sebastien-gabriel.com/designers-guide-to-dpi/"
       paid: false
+    - title: "Heuristic Principles for Mobile Interfaces"
+      author: "Jordan Devos"
+      url: "https://www.toptal.com/designers/usability/mobile-heuristic-principles"
+      paid: false
 
 - category: "Videos"
   nav: "videos"
