@@ -169,6 +169,10 @@
       author: "Marc Edwards"
       url: "https://github.com/bjango/Bjango-Templates"
       paid: false
+    - title: "Vector Mockups Library"
+      author: "KK UI Store"
+      url: "https://mockups.kkuistore.com"
+      paid: false
 
 - category: "Tools"
   nav: "tools"
