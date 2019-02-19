@@ -173,6 +173,10 @@
       author: "KK UI Store"
       url: "https://mockups.kkuistore.com"
       paid: false
+    - title: "Material Icons Library"
+      author: "Pixsellz"
+      url: "https://icons.pixsellz.io/"
+      paid: false
 
 - category: "Tools"
   nav: "tools"
