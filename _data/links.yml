@@ -177,6 +177,10 @@
       author: "Pixsellz"
       url: "https://icons.pixsellz.io/"
       paid: false
+    - title: "Plaster - Mobile Design System"
+      author: "Buninux"
+      url: "https://plasterdesignsystem.com/"
+      paid: true
 
 - category: "Tools"
   nav: "tools"
