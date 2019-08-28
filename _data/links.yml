@@ -181,6 +181,10 @@
       author: "Buninux"
       url: "https://plasterdesignsystem.com/"
       paid: true
+    - title: "Fragments iOS Wireframe Kit"
+      author: "Pixsellz"
+      url: "https://fragments.pixsellz.io"
+      paid: true
 
 - category: "Tools"
   nav: "tools"
