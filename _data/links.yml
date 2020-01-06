@@ -185,6 +185,10 @@
       author: "Pixsellz"
       url: "https://fragments.pixsellz.io"
       paid: true
+    - title: "Mobile Apps Library"
+      author: "Pixsellz"
+      url: "https://apps.pixsellz.io/"
+      paid: false
 
 - category: "Tools"
   nav: "tools"
