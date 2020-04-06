@@ -133,6 +133,10 @@
       author: "Jim Nielsen"
       url: "https://www.iosicongallery.com/"
       paid: false
+    - title: "UI Sources"
+      author: "Abhinav Chhikara"
+      url: "https://www.uisources.com/home"
+      paid: false
 
 - category: "Downloads"
   nav: "downloads"
