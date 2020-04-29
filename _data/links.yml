@@ -97,6 +97,18 @@
       author: "Luke Wroblewski"
       url: "https://www.youtube.com/watch?v=OkeJg92PA4E"
       paid: false
+    - title: "Basics of UI Design for Mobile Apps - Artboard Size, Screen Density and Resolution for Beginners"
+      author: "Design Pilot - Chethan KVS"
+      url: "https://www.youtube.com/watch?v=viNNYye4qG0"
+      paid: false
+    - title: "Designing Dark Theme/Dark Mode for Android Apps using Material Design - The Ultimate Guide!"
+      author: "Design Pilot - Chethan KVS"
+      url: "https://www.youtube.com/watch?v=FSxgFKlbV9Y"
+      paid: false
+    - title: "Designing Dark Mode for iOS Apps - Tutorial"
+      author: "Design Pilot - Chethan KVS"
+      url: "https://www.youtube.com/watch?v=YaFLGGrx6sY"
+      paid: false
 
 - category: "Courses"
   nav: "courses"
