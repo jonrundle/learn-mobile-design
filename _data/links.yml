@@ -209,13 +209,13 @@
 - category: "Tools"
   nav: "tools"
   items:
-    - title: "Sketch - The digital design toolkit"
-      author: "Sketch"
-      url: "https://www.sketchapp.com"
-      paid: true
     - title: "Figma: the collaborative interface design tool"
       author: "Figma"
       url: "http://figma.com"
+      paid: true
+    - title: "Sketch - The digital design toolkit"
+      author: "Sketch"
+      url: "https://www.sketchapp.com"
       paid: true
     - title: "Adobe XD"
       author: "Adobe"
