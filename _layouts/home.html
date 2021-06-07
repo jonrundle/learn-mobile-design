@@ -12,9 +12,12 @@ layout: default
       {% for details in link.items %}
       <li class="mt4">
         <a class="db link white dim" target="_blank" href="{{ details.url }}">
-          <h4 class="f3-l f4 normal ma0 mb1 lh-copy">{{ details.title }}</h4>
+          <h4 class="f3-l f4 normal ma0 mb1 lh-copy">
+            {{ details.title }}
+            {% if details.new %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative" style="top: -3px;">✨ New</span>{% endif %}
+          </h4>
           <span class="o-60">by {{ details.author }}</span>
-          {% if details.paid %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative o-80" style="top: -1px;">$$$</span>{% endif %}
+          {% if details.paid %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative o-80" style="top: -2px;">$$$</span>{% endif %}
         </a>
       </li>
       {% endfor %}

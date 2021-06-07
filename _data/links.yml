@@ -25,25 +25,18 @@
 - category: "Good reads"
   nav: "reads"
   items:
+    - title: "On Building a Fluid User Interface"
+      author: "Rishi Mody"
+      url: "https://about.instagram.com/blog/engineering/on-building-a-fluid-user-interface"
+      paid: false
+      new: true
     - title: "Pixel Density, Demystified"
       author: "Peter Nowell"
       url: "https://medium.com/@pnowelldesign/pixel-density-demystified-a4db63ba2922"
       paid: false
-    - title: "Designing beautiful mobile apps from scratch"
-      author: "Harshita Arora"
-      url: "https://medium.freecodecamp.org/designing-beautiful-mobile-apps-from-scratch-1a3441ebd604"
-      paid: false
-    - title: "Mobile in The Future"
-      author: "Luke Wroblewski"
-      url: "https://www.lukew.com/ff/entry.asp?1982"
-      paid: false
     - title: "Designing Push Notifications that Don’t Suck"
       author: "Antoine Sakho"
       url: "https://medium.com/@antoinesakho/designing-push-notifications-that-dont-suck-af6aaa0ea85"
-      paid: false
-    - title: "User Onboarding | A frequently-updated compendium of web app first-run experiences"
-      author: "Samuel Hulick"
-      url: "https://www.useronboard.com"
       paid: false
     - title: "Mobile first"
       author: "Luke Wroblewski"
@@ -77,6 +70,16 @@
 - category: "Videos"
   nav: "videos"
   items:
+    - title: "Design great widgets - WWDC 2020"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2020/10103/"
+      paid: false
+      new: true
+    - title: "Design for the iPadOS pointer - WWDC 2020"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2020/10640/"
+      paid: false
+      new: true
     - title: "Designing Fluid Interfaces - WWDC 2018"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2018/803/"
@@ -113,13 +116,19 @@
 - category: "Courses"
   nav: "courses"
   items:
+    - title: "Shift Nudge"
+      author: "MDS"
+      url: "https://shiftnudge.com"
+      paid: true
+      new: true
+    - title: "How to design & prototype a Mobile UI/UX Design Experience using Figma design tool - Learn Figma"
+      author: "Aaron Lawrence"
+      url: "https://www.skillshare.com/classes/How-to-design-prototype-a-Mobile-UIUX-Design-Experience-using-Figma-design-tool-Learn-Figma/2017505298?via=browse-rating-app-design-layout-grid"
+      paid: true
+      new: true
     - title: "Learn iOS 11 Design"
       author: "Meng To"
       url: "https://designcode.io/ios11"
-      paid: true
-    - title: "Mobile App Design for iOS"
-      author: "Sarah Parmenter"
-      url: "https://teamtreehouse.com/library/mobile-app-design-for-ios"
       paid: true
     - title: "Material Design for Android Developers"
       author: "Google"
@@ -137,10 +146,6 @@
       author: "Mobbin"
       url: "https://mobbin.design"
       paid: false
-    - title: "Underbite - iOS Design Inspiration"
-      author: "Underbite"
-      url: "https://www.underbite.co"
-      paid: false
     - title: "iOS Icon Gallery"
       author: "Jim Nielsen"
       url: "https://www.iosicongallery.com/"
@@ -157,54 +162,30 @@
       author: "Apple"
       url: "https://developer.apple.com/design/resources/"
       paid: false
-    - title: "iOS Design Kit"
-      author: "Great Simple Studio"
-      url: "https://iosdesignkit.io/ios-11-gui/"
+    - title: "iOS & iPadOS 14 UI Kit for Figma"
+      author: "Joey Banks"
+      url: "https://www.figma.com/community/file/858143367356468985"
       paid: false
-    - title: "Material Design Kit"
-      author: "Great Simple Studio"
-      url: "https://materialdesignkit.com"
-      paid: true
-    - title: "Android Asset Studio"
-      author: "Roman Nurik"
-      url: "https://romannurik.github.io/AndroidAssetStudio/"
+      new: true
+    - title: "Material Design Resources"
+      author: "Google"
+      url: "https://material.io/resources"
       paid: false
+      new: true
+    - title: "Material Icons"
+      author: "Google"
+      url: "https://fonts.google.com/icons"
+      paid: false
+      new: true
     - title: "Devices"
       author: "Facebook Design"
       url: "https://facebook.design/devices"
       paid: false
-    - title: "Sketchize: Free Wireframing Sheets"
-      author: "Sketchize"
-      url: "https://sketchize.com"
-      paid: false
-    - title: "Superior iOS Framework"
-      author: "Interface.Market"
-      url: "https://interface.market/superior/framework"
+    - title: "UI8: UI Kits"
+      author: "UI8"
+      url: "https://www.ui8.net/category/ui-kits"
       paid: true
-    - title: "Bjango App Icon Templates"
-      author: "Marc Edwards"
-      url: "https://github.com/bjango/Bjango-Templates"
-      paid: false
-    - title: "Vector Mockups Library"
-      author: "KK UI Store"
-      url: "https://mockups.kkuistore.com"
-      paid: false
-    - title: "Material Icons Library"
-      author: "Pixsellz"
-      url: "https://icons.pixsellz.io/"
-      paid: false
-    - title: "Plaster - Mobile Design System"
-      author: "Buninux"
-      url: "https://plasterdesignsystem.com/"
-      paid: true
-    - title: "Fragments iOS Wireframe Kit"
-      author: "Pixsellz"
-      url: "https://fragments.pixsellz.io"
-      paid: true
-    - title: "Mobile Apps Library"
-      author: "Pixsellz"
-      url: "https://apps.pixsellz.io/"
-      paid: false
+      new: true
 
 - category: "Tools"
   nav: "tools"
@@ -225,27 +206,15 @@
       author: "Framer"
       url: "https://framer.com"
       paid: true
-    - title: "Principle - Animated Design"
-      author: "Principle"
-      url: "http://principleformac.com"
-      paid: true
-    - title: "Invision - Digital product design, workflow & collaboration"
-      author: "Invision"
-      url: "https://www.invisionapp.com"
-      paid: false
-    - title: "Flinto - The App Design App"
-      author: "Flinto"
-      url: "https://www.flinto.com/"
-      paid: true
     - title: "Origami Studio - Interaction Prototyping"
       author: "Facebook"
       url: "https://origami.design/"
       paid: false
+    - title: "Principle - Animated Design"
+      author: "Principle"
+      url: "http://principleformac.com"
+      paid: true
     - title: "Shotsnapp - Create beautiful device mockup presentation"
       author: "Shotsnapp"
       url: "https://shotsnapp.com"
       paid: false
-    - title: "Abstract - Version, manage, and collaborate on your Sketch files"
-      author: "Abstract"
-      url: "https://www.goabstract.com/"
-      paid: true
