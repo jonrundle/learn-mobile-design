@@ -3,3 +3,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+html {
+  @apply font-sans;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+}
