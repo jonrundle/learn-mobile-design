@@ -5,16 +5,16 @@
 @import "tailwindcss/utilities";
 
 html {
-  background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+  @apply bg-darkGrey;
 }
 
 body {
-  @apply font-sans text-darkGrey;
+  @apply font-sans text-gray-500;
 }
 
 h1 {
-  background-color: #FE6E71;
-  background-image: linear-gradient(#FCB567, #FE6E71);
+  background-color: #F56565;
+  background-image: linear-gradient(#ECC94B, #E53E3E);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .flex2x2 {
-  @apply mr-8;
+  @apply mr-8 transition-all;
   flex-basis: calc(50% - 1rem);
 }
 
@@ -33,6 +33,34 @@ h1 {
   @apply mr-0;
 }
 
+.flex2x2:hover {
+  transform: scale(1.05);
+}
+
 .blur {
   backdrop-filter: blur(10px);
+}
+
+#reads {
+  @apply bg-gradient-to-br from-yellow-400 to-yellow-500 text-yellow-500;
+}
+
+#videos {
+  @apply bg-gradient-to-br from-purple-400 to-purple-500 text-purple-500;
+}
+
+#courses {
+  @apply bg-gradient-to-br from-green-400 to-green-500 text-green-500;
+}
+
+#inspiration {
+  @apply bg-gradient-to-br from-pink-400 to-pink-500 text-pink-500;
+}
+
+#downloads {
+  @apply bg-gradient-to-br from-indigo-400 to-indigo-500 text-indigo-500;
+}
+
+#tools {
+  @apply bg-gradient-to-br from-red-400 to-red-500 text-red-500;
 }

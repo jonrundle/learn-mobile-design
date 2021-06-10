@@ -10,14 +10,11 @@ module.exports = {
     extend: {
       colors: {
         white96: 'rgba(255,255,255,0.96)',
-        darkGrey: '#232323',
-        blue: '#4377E3',
-        blueLight: '#1BABF2',
-        red: '#FA564A',
+        darkGrey: '#0E0E0E',
       },
       borderRadius: {
-        '4xl': '2.5rem',
-        '5xl': '6rem',
+        '4xl': '2rem',
+        '5xl': '4rem',
       },
       boxShadow: {
         '3xl': '0px 8px 40px rgba(0, 0, 0, 0.16)',
