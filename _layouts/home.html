@@ -2,26 +2,28 @@
 layout: default
 ---
 
-  <a href="#">Submit</a>
+<!-- <a href="#">Submit</a> -->
 
-  <div>
-    {% for link in site.data.links %}
-    <h3 id="{{ link.nav }}">{{ link.category }}</h3>
-    <ul>
+<div>
+  {% for link in site.data.links %}
+  <div class="bg-gradient-to-br from-blueLight to-blue text-blue rounded-5xl mb-20 py-20 px-24">
+    <h2 id="{{ link.nav }}" class="leading-none text-4xl font-medium text-white mb-4">{{ link.category }}</h2>
+    <ul class="flex flex-wrap">
       {% for details in link.items %}
-      <li>
+      <li class="flex2x2 blur shadow-3xl bg-white96 rounded-4xl w-1/2 p-10 mt-10">
         <a target="_blank" href="{{ details.url }}">
-          <h4>
+          <h4 class="text-3xl font-bold leading-tight mb-2">
             {{ details.title }}
-            {% if details.new %}<span>✨ New</span>{% endif %}
+            <!-- {% if details.new %}<span>✨ New</span>{% endif %} -->
           </h4>
-          <span>by {{ details.author }}</span>
-          {% if details.paid %}<span>$$$</span>{% endif %}
+          <h5 class="text-2xl font-bold leading-tight text-darkGrey">
+            by {{ details.author }}
+          </h5>
+          <!-- {% if details.paid %}<span>$$$</span>{% endif %} -->
         </a>
       </li>
       {% endfor %}
     </ul>
-    {% endfor %}
   </div>
-
+  {% endfor %}
 </div>

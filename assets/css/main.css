@@ -5,6 +5,34 @@
 @import "tailwindcss/utilities";
 
 html {
-  @apply font-sans;
   background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+}
+
+body {
+  @apply font-sans text-darkGrey;
+}
+
+h1 {
+  background-color: #FE6E71;
+  background-image: linear-gradient(#FCB567, #FE6E71);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  line-height: 1.15 !important; /* To prevent clip cutting off the G */
+}
+
+.flex2x2 {
+  @apply mr-8;
+  flex-basis: calc(50% - 1rem);
+}
+
+.flex2x2:nth-child(even) {
+  @apply mr-0;
+}
+
+.blur {
+  backdrop-filter: blur(10px);
 }
