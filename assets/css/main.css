@@ -25,8 +25,15 @@ h1 {
 }
 
 .flex2x2 {
-  @apply mr-8 transition-all;
-  flex-basis: calc(50% - 1rem);
+  @apply transition-all;
+  flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+  .flex2x2 {
+    @apply mr-8;
+    flex-basis: calc(50% - 1rem);
+  }
 }
 
 .flex2x2:nth-child(even) {
