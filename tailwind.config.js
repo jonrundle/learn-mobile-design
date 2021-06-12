@@ -1,4 +1,10 @@
 module.exports = {
+  purge: [
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './*.html',
+  ],
   darkMode: false,
   theme: {
     extend: {
@@ -17,7 +23,7 @@ module.exports = {
     },
   },
   fontFamily: {
-    sans: ['-apple-system', 'system-ui', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Ubuntu', 'sans-serif'],
+    sans: ["-apple-system", "system-ui", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Ubuntu", "sans-serif"],
   },
   variants: {},
   plugins: [],
