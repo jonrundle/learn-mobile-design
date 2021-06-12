@@ -1,6 +1,9 @@
 {
   "license": "UNLICENSED",
   "private": true,
+  "engines": {
+    "node": "^10 || ^12 || >=14"
+  },
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.2",
