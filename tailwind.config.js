@@ -5,12 +5,14 @@ module.exports = {
     './_posts/*.md',
     './*.html',
   ],
-  darkMode: false,
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
         white96: 'rgba(255,255,255,0.96)',
+        black96: 'rgba(14,14,14,0.96)',
         darkGrey: '#0E0E0E',
+        lightGrey: '#F6F6F6'
       },
       borderRadius: {
         '4xl': '2rem',

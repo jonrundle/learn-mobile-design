@@ -5,7 +5,13 @@
 @import "tailwindcss/utilities";
 
 html {
-  @apply bg-darkGrey;
+  @apply bg-lightGrey;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    @apply bg-darkGrey;
+  }
 }
 
 body {
@@ -20,6 +26,7 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  text-shadow: 0px 4px 60px rgba(245, 101, 101, 0.3);
 
   line-height: 1.15 !important; /* To prevent clip cutting off the G */
 }
@@ -49,26 +56,37 @@ h1 {
   backdrop-filter: blur(10px);
 }
 
+#guides {
+  @apply bg-gradient-to-br from-blue-400 to-blue-500 text-blue-500;
+  box-shadow: 0px 4px 60px rgba(59, 130, 246, 0.4);
+}
+
 #reads {
   @apply bg-gradient-to-br from-yellow-400 to-yellow-500 text-yellow-500;
+  box-shadow: 0px 4px 60px rgba(245, 158, 11, 0.4);
 }
 
 #videos {
   @apply bg-gradient-to-br from-purple-400 to-purple-500 text-purple-500;
+  box-shadow: 0px 4px 60px rgba(139, 92, 246, 0.4);
 }
 
 #courses {
   @apply bg-gradient-to-br from-green-400 to-green-500 text-green-500;
+  box-shadow: 0px 4px 60px rgba(16, 185, 129, 0.4);
 }
 
 #inspiration {
   @apply bg-gradient-to-br from-pink-400 to-pink-500 text-pink-500;
+  box-shadow: 0px 4px 60px rgba(236, 72, 153, 0.4);
 }
 
 #downloads {
   @apply bg-gradient-to-br from-indigo-400 to-indigo-500 text-indigo-500;
+  box-shadow: 0px 4px 60px rgba(99, 102, 241, 0.4);
 }
 
 #tools {
   @apply bg-gradient-to-br from-red-400 to-red-500 text-red-500;
+  box-shadow: 0px 4px 60px rgba(239, 68, 68, 0.4);
 }
