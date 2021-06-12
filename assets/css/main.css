@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  @apply font-sans text-gray-500;
+  @apply font-sans text-gray-400 dark:text-gray-500;
 }
 
 h1 {
@@ -57,32 +57,32 @@ h1 {
 }
 
 #guides {
-  @apply bg-gradient-to-br from-blue-400 to-blue-500 text-blue-500;
+  @apply bg-gradient-to-br from-blue-400 to-blue-500 text-blue-500 dark:text-blue-400;
   box-shadow: 0px 4px 60px rgba(59, 130, 246, 0.4);
 }
 
 #reads {
-  @apply bg-gradient-to-br from-yellow-400 to-yellow-500 text-yellow-500;
+  @apply bg-gradient-to-br from-yellow-400 to-yellow-500 text-yellow-500 dark:text-yellow-400;
   box-shadow: 0px 4px 60px rgba(245, 158, 11, 0.4);
 }
 
 #videos {
-  @apply bg-gradient-to-br from-purple-400 to-purple-500 text-purple-500;
+  @apply bg-gradient-to-br from-purple-400 to-purple-500 text-purple-500 dark:text-purple-400;
   box-shadow: 0px 4px 60px rgba(139, 92, 246, 0.4);
 }
 
 #courses {
-  @apply bg-gradient-to-br from-green-400 to-green-500 text-green-500;
+  @apply bg-gradient-to-br from-green-400 to-green-500 text-green-500 dark:text-green-400;
   box-shadow: 0px 4px 60px rgba(16, 185, 129, 0.4);
 }
 
 #inspiration {
-  @apply bg-gradient-to-br from-pink-400 to-pink-500 text-pink-500;
+  @apply bg-gradient-to-br from-pink-400 to-pink-500 text-pink-500 dark:text-pink-400;
   box-shadow: 0px 4px 60px rgba(236, 72, 153, 0.4);
 }
 
 #downloads {
-  @apply bg-gradient-to-br from-indigo-400 to-indigo-500 text-indigo-500;
+  @apply bg-gradient-to-br from-indigo-400 to-indigo-500 text-indigo-500 dark:text-indigo-400;
   box-shadow: 0px 4px 60px rgba(99, 102, 241, 0.4);
 }
 
