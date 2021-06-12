@@ -5,10 +5,12 @@
       author: "Apple"
       url: "https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
       paid: false
+      fav: true
     - title: "Material Design Guidelines"
       author: "Google"
       url: "https://material.io/design/"
       paid: false
+      fav: true
     - title: "The iOS Design Guidelines"
       author: "Ivo Mynttinen"
       url: "https://ivomynttinen.com/blog/ios-design-guidelines"
@@ -29,7 +31,7 @@
       author: "Rishi Mody"
       url: "https://about.instagram.com/blog/engineering/on-building-a-fluid-user-interface"
       paid: false
-      new: true
+      fav: true
     - title: "Pixel Density, Demystified"
       author: "Peter Nowell"
       url: "https://medium.com/@pnowelldesign/pixel-density-demystified-a4db63ba2922"
@@ -62,6 +64,7 @@
       author: "Sebastien Gabriel"
       url: "https://www.sebastien-gabriel.com/designers-guide-to-dpi/"
       paid: false
+      fav: true
     - title: "Heuristic Principles for Mobile Interfaces"
       author: "Jordan Devos"
       url: "https://www.toptal.com/designers/usability/mobile-heuristic-principles"
@@ -74,12 +77,11 @@
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2020/10103/"
       paid: false
-      new: true
     - title: "Design for the iPadOS pointer - WWDC 2020"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2020/10640/"
       paid: false
-      new: true
+      fav: true
     - title: "Designing Fluid Interfaces - WWDC 2018"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2018/803/"
@@ -88,6 +90,7 @@
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2017/804/"
       paid: false
+      fav: true
     - title: "App Icon Design - WWDC 2017"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2017/822/"
@@ -120,12 +123,10 @@
       author: "MDS"
       url: "https://shiftnudge.com"
       paid: true
-      new: true
     - title: "How to design & prototype a Mobile UI/UX Design Experience using Figma design tool - Learn Figma"
       author: "Aaron Lawrence"
       url: "https://www.skillshare.com/classes/How-to-design-prototype-a-Mobile-UIUX-Design-Experience-using-Figma-design-tool-Learn-Figma/2017505298?via=browse-rating-app-design-layout-grid"
       paid: true
-      new: true
     - title: "Learn iOS 11 Design"
       author: "Meng To"
       url: "https://designcode.io/ios11"
@@ -162,30 +163,28 @@
       author: "Apple"
       url: "https://developer.apple.com/design/resources/"
       paid: false
-    - title: "iOS & iPadOS 14 UI Kit for Figma"
+    - title: "iOS 15 UI Kit for Figma"
       author: "Joey Banks"
-      url: "https://www.figma.com/community/file/858143367356468985"
+      url: "http://ioskit.design"
       paid: false
-      new: true
+      fav: true
     - title: "Material Design Resources"
       author: "Google"
       url: "https://material.io/resources"
       paid: false
-      new: true
     - title: "Material Icons"
       author: "Google"
       url: "https://fonts.google.com/icons"
       paid: false
-      new: true
     - title: "Devices"
       author: "Facebook Design"
       url: "https://facebook.design/devices"
       paid: false
+      fav: true
     - title: "UI8: UI Kits"
       author: "UI8"
       url: "https://www.ui8.net/category/ui-kits"
       paid: true
-      new: true
 
 - category: "Tools"
   nav: "tools"
@@ -194,6 +193,7 @@
       author: "Figma"
       url: "http://figma.com"
       paid: true
+      fav: true
     - title: "Sketch - The digital design toolkit"
       author: "Sketch"
       url: "https://www.sketchapp.com"
@@ -210,6 +210,7 @@
       author: "Facebook"
       url: "https://origami.design/"
       paid: false
+      fav: true
     - title: "Principle - Animated Design"
       author: "Principle"
       url: "http://principleformac.com"

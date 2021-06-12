@@ -34,6 +34,7 @@ h1 {
 }
 
 .flex2x2:hover {
+  @apply shadow-4xl;
   transform: scale(1.05);
 }
 
