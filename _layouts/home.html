@@ -6,7 +6,7 @@ layout: default
 
 <div>
   {% for link in site.data.links %}
-  <div id="{{ link.nav }}" class="rounded-4xl sm:rounded-5xl mb-16 md:mb-20 py-12 px-8 sm:py-16 sm:px-12 md:py-20 md:px-24">
+  <div id="{{ link.nav }}" data-title="{{ link.category }}" class="js-category rounded-4xl sm:rounded-5xl mb-16 md:mb-20 py-12 px-8 sm:py-16 sm:px-12 md:py-20 md:px-24">
     <h2 class="leading-none text-3xl md:text-4xl font-medium text-white mb-2 md:mb-4">{{ link.category }}</h2>
     <ul class="flex flex-wrap">
       {% for details in link.items %}
