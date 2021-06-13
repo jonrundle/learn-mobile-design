@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         white96: 'rgba(255,255,255,0.96)',
-        black96: 'rgba(14,14,14,0.96)',
+        black90: 'rgba(14,14,14,0.90)',
         darkGrey: '#0E0E0E',
         lightGrey: '#F6F6F6'
       },
@@ -20,13 +20,19 @@ module.exports = {
       },
       boxShadow: {
         '3xl': '0px 8px 40px rgba(0, 0, 0, 0.16)',
+        '3xld': '0px 8px 40px rgba(0, 0, 0, 0.32)',
         '4xl': '0px 12px 40px rgba(0, 0, 0, 0.32)',
+        '4xld': '0px 12px 40px rgba(0, 0, 0, 0.48)',
       },
     },
   },
   fontFamily: {
     sans: ["-apple-system", "system-ui", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Ubuntu", "sans-serif"],
   },
-  variants: {},
+  variants: {
+    extend: {
+      boxShadow: ['dark'],
+    }
+  },
   plugins: [],
 }

@@ -5,13 +5,7 @@
 @import "tailwindcss/utilities";
 
 html {
-  @apply bg-lightGrey;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    @apply bg-darkGrey;
-  }
+  @apply bg-lightGrey dark:bg-darkGrey;
 }
 
 body {
@@ -48,7 +42,7 @@ h1 {
 }
 
 .flex2x2:hover {
-  @apply shadow-4xl;
+  @apply shadow-4xl dark:shadow-4xld;
   transform: scale(1.05);
 }
 
@@ -89,4 +83,14 @@ h1 {
 #tools {
   @apply bg-gradient-to-br from-red-400 to-red-500 text-red-500;
   box-shadow: 0px 4px 60px rgba(239, 68, 68, 0.4);
+}
+
+footer {
+  margin-left: -40%;
+}
+
+@media (min-width: 768px) {
+  footer {
+    margin-left: -25%;
+  }
 }
