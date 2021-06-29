@@ -28,6 +28,9 @@ module.exports = {
       },
       transitionTimingFunction: {
         'bounce': 'cubic-bezier(0.17, 0.85, 0.32, 1.4)',
+      },
+      inset: {
+        '26': '6.5rem',
       }
     },
   },
