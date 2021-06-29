@@ -9,10 +9,6 @@
 
 <div class="floating-nav z-10 opacity-0 bottom-10 max-h-0 flex fixed transition-all duration-300 ease-bounce left-2/4 w-11/12 md:w-1/2 px-5 py-6 bg-black90 blur rounded-4xl shadow-3xl">
   <ul class="w-full">
-    <li class="block w-full flex p-3 text-gray-300 text-base">
-      <div class="mr-4">🌟 Fav</div>
-      <div>💰 Paid </div>
-    </li>
     {% for link in site.data.links %}
     <li class="block w-full"><a class="js-nav-link p-3 block w-full transition-all bg-white bg-opacity-0 hover:bg-opacity-10 text-xl font-regular leading-tight tracking-wide text-lightGrey rounded-lg" href="#{{ link.nav }}">{{ link.category }}</a>
     {% endfor %}
