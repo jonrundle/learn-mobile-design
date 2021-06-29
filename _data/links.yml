@@ -73,6 +73,10 @@
 - category: "Videos"
   nav: "videos"
   items:
+    - title: "Design for spatial interaction - WWDC 2021"
+      author: "Apple"
+      url: "https://developer.apple.com/videos/play/wwdc2021/10245/"
+      paid: false
     - title: "Design great widgets - WWDC 2020"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2020/10103/"
@@ -91,10 +95,6 @@
       url: "https://developer.apple.com/videos/play/wwdc2017/804/"
       paid: false
       fav: true
-    - title: "App Icon Design - WWDC 2017"
-      author: "Apple"
-      url: "https://developer.apple.com/videos/play/wwdc2017/822/"
-      paid: false
     - title: "Iterative UI Design - WWDC 2017"
       author: "Apple"
       url: "https://developer.apple.com/videos/play/wwdc2016/805/"
