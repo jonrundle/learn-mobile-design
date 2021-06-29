@@ -2,27 +2,32 @@
 layout: default
 ---
 
-<div class="w-75-l w-100 ph5-l pt5-l pb6-l pa4 white fr">
-  <a class="fixed top-0 right-0 white link mt5 mr5 pa1 dim f5 db-l dn z-2 js-submit-link" href="#">Submit</a>
+<!-- <a href="#">Submit</a> -->
 
-  <div class="pl6-l pl0 js-links-wrapper">
-    {% for link in site.data.links %}
-    <h3 id="{{ link.nav }}" class="b f3-l f4 bg-border relative dib ma0 pt6-l pt4 js-category">{{ link.category }}</h3>
-    <ul class="list ma0 pa0 mt4 mb0-l mb4">
+<div>
+  {% for link in site.data.links %}
+  <div id="{{ link.nav }}" data-title="{{ link.category }}" class="js-category rounded-4xl sm:rounded-5xl mb-16 md:mb-20 py-12 px-8 sm:py-16 sm:px-12 md:py-20 md:px-24">
+    <h2 class="leading-none text-3xl md:text-4xl font-medium text-white mb-2 md:mb-4">{{ link.category }}</h2>
+    <ul class="flex flex-wrap">
       {% for details in link.items %}
-      <li class="mt4">
-        <a class="db link white dim" target="_blank" href="{{ details.url }}">
-          <h4 class="f3-l f4 normal ma0 mb1 lh-copy">
-            {{ details.title }}
-            {% if details.new %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative" style="top: -3px;">✨ New</span>{% endif %}
-          </h4>
-          <span class="o-60">by {{ details.author }}</span>
-          {% if details.paid %}<span class="bg-white blue br-pill f7 pv1 ph2 ml1 b relative o-80" style="top: -2px;">$$$</span>{% endif %}
+      <li class="flex2x2 blur shadow-3xl dark:shadow-3xld bg-white96 dark:bg-black90 rounded-3xl sm:rounded-4xl w-full md:w-1/2 mt-6 md:mt-10">
+        <a class="block p-8 md:p-10 flex" target="_blank" href="{{ details.url }}">
+          <div class="flex-grow">
+            <h4 class="text-2xl md:text-3xl font-bold leading-tight mb-2">
+              {{ details.title }}
+            </h4>
+            <h5 class="text-xl md:text-2xl font-medium leading-tight text-darkGrey dark:text-lightGrey">
+              by {{ details.author }}
+            </h5>
+          </div>
+          <div class="mt-1 md:mt-2 ml-2 flex flex-col">
+            {% if details.paid %}<span class="mb-2">💰</span>{% endif %}
+            {% if details.fav %}<span>🌟</span> {% endif %}
+          </div>
         </a>
       </li>
       {% endfor %}
     </ul>
-    {% endfor %}
   </div>
-
+  {% endfor %}
 </div>
